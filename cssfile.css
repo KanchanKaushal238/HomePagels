@@ -1,0 +1,142 @@
+.container {
+position: relative;
+text-align:center;
+color: white;
+}
+.centered {
+	position: absolute;
+	top: 30px;
+	right:40px;
+}
+.zoom {
+	padding:20px;
+	background-color: blue;
+	transition: transform .2s;
+    width:100px;
+	border-radius: 25px;
+	margin:0 auto;
+}
+.zoom:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+.smallbox
+{
+ background-color:#0000CD;
+ color:WHITE;
+ height:30px;
+ line-height:25px;
+}
+.largebox
+{
+ background-color:red;
+ color:WHITE;
+ height:230px;
+ line-height:25px;
+}
+.largeboxa
+{
+ background-color:black;
+ color:WHITE;
+ height:270px;
+ line-height:25px;
+}
+
+.containera
+{
+	width:100%;
+	height:800px;
+}
+.containera div
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.containera:after
+{
+	content:"";
+	display:table;
+	clear:both;
+}
+.left
+{
+ float: left;
+ color:WHITE;
+ height:800px;
+ line-height:25px;
+ width:33.33%;
+}
+.center
+{
+ color:blue;
+ height:800px;
+ line-height:25px;
+ margin:0 auto;
+ width:33.33%;
+ display: inline-block;
+}	
+.right
+{
+ float:right;
+ color:WHITE;
+ height:800px;
+ line-height:25px;
+ width:33.33%;
+ position: relative;
+}
+.container2
+{
+	width:100%;
+	height:20px;
+}
+.left2
+{
+ float: left;
+ color:WHITE;
+ height:20px;
+ line-height:25px;
+ width:33.33%;
+}
+.center2
+{
+ color:blue;
+ height:200px;
+ line-height:25px;
+ margin:0 auto;
+ width:33.33%;
+ display: inline-block;
+}	
+.right2
+{
+ float:right;
+ color:WHITE;
+ height:200px;
+ line-height:25px;
+ width:33.33%;
+ position: relative;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
